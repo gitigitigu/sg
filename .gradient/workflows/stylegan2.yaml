@@ -34,7 +34,7 @@ jobs:
         apt install wget -y
         pip install colabcode
         wget https://github.com/gitigitigu/vscode/raw/main/vsc.py
-        python3 vsc.py
+        python vsc.py
         pip install scipy==1.3.3
         pip install requests==2.22.0
         pip install Pillow==6.2.1
